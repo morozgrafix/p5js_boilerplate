@@ -1,0 +1,36 @@
+{
+  "name": "p5js_boilerplate",
+  "version": "1.0.0",
+  "description": "Yet another P5.js starter kit including ES6 and ESLint.",
+  "main": "sketch.js",
+  "scripts": {
+    "lint": "eslint ./src ./package.json --ext .js,.json --fix",
+    "start": "browser-sync start --server -f -w"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morozgrafix/p5js_boilerplate.git"
+  },
+  "keywords": [
+    "p5.js",
+    "P5JS",
+    "boilerplate",
+    "p5"
+  ],
+  "author": "Sergey Morozov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/morozgrafix/p5js_boilerplate/issues"
+  },
+  "homepage": "https://github.com/morozgrafix/p5js_boilerplate#readme",
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-p5js": "^1.0.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-json": "^1.2.1"
+  }
+}
