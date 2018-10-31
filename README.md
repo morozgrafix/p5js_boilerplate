@@ -1,18 +1,9 @@
 # P5JS Boilerplate 🍳
 yet another version of p5.js boilerplate, partially based on https://github.com/JForsaken/p5js-boilerplate by [JForsaken](https://github.com/JForsaken)
 
-
-
-
-
-# P5JS Boilerplate 🍳
-
-This boilerplate is a foolproof starter kit that lets you develop JavaScript animations / games / whatever else.
-You might have heard about P5JS by watching Daniel Shiffman's [YouTube channel](https://www.youtube.com/user/shiffman).
-
 ## Getting Started
 
-1. Install `node` and `npm` using [nvm](https://github.com/creationix/nvm).
+1. Install `node` and `npm` using [nvm](https://github.com/creationix/nvm) or [brew](https://brew.sh/).
 2. Clone the project.
 3. `cd` to your the cloned project's path.
 4. Run `npm start`.
