@@ -29,11 +29,11 @@
   "devDependencies": {
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.2.0",
-    "eslint-config-p5js": "^1.0.1",
-    "eslint-plugin-import": "^2.18.2",
+    "eslint-config-p5js": "^1.1.0",
+    "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-json": "^1.4.0"
   },
   "dependencies": {
-    "browser-sync": "^2.26.13"
+    "browser-sync": "^2.27.5"
   }
 }
