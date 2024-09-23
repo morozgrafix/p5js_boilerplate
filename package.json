@@ -34,6 +34,6 @@
     "eslint-plugin-json": "^4.0.0"
   },
   "dependencies": {
-    "browser-sync": "^3.0.2"
+    "browser-sync": "^3.0.3"
   }
 }
