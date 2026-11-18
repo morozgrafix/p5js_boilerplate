@@ -28,5 +28,10 @@ You might need to read P5JS' [examples](https://p5js.org/examples/) and [doc](ht
 
 ### linting
 
-ESLint is included in the boilerplate to encourage good practices, which supports **ES6**.
-It will lint prior to commits and will refuse them if errors are present, so code responsibly 😉.
+ESLint uses the flat configuration in `eslint.config.js`, with recommended JavaScript rules,
+p5.js global names, and JSON validation for `package.json`.
+
+Run `npm run lint` to check source files, including `src/my_sketches`, and apply automatic
+fixes. Vendored libraries in `src/libs` and generated output are excluded.
+
+ESLint 10 requires Node.js 20.19+, 22.13+, or 24+.

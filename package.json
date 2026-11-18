@@ -4,7 +4,7 @@
   "description": "Yet another P5.js starter kit including ES6 and ESLint.",
   "main": "sketch.js",
   "scripts": {
-    "lint": "eslint ./src ./package.json --ext .js,.json --fix",
+    "lint": "eslint ./src ./package.json ./eslint.config.js --fix",
     "start": "browser-sync start --server -f -w"
   },
   "pre-commit": [
@@ -27,10 +27,11 @@
   },
   "homepage": "https://github.com/morozgrafix/p5js_boilerplate#readme",
   "devDependencies": {
-    "eslint": "^9.39.5",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.11.0",
     "eslint-config-p5js": "^1.1.0",
-    "eslint-plugin-import": "^2.32.0",
-    "eslint-plugin-json": "^5.0.0"
+    "eslint-plugin-json": "^5.0.0",
+    "globals": "^17.0.0"
   },
   "dependencies": {
     "browser-sync": "^3.0.4"
