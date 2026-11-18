@@ -57,6 +57,9 @@ typings/
 # Generated output
 /output/
 
+# Local sketches
+/src/my_sketches/
+
 # Yarn Integrity file
 .yarn-integrity
 
