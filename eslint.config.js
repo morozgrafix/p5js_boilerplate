@@ -6,7 +6,7 @@ const json = require('eslint-plugin-json');
 
 module.exports = [
   {
-    ignores: ['src/libs/**', 'output/**', 'assets/**'],
+    ignores: ['src/libs/**', 'src/my_sketches/canvas-getsvg.js', 'output/**', 'assets/**'],
   },
   {
     files: ['src/**/*.js'],
@@ -17,10 +17,17 @@ module.exports = [
         ...globals.browser,
         ...p5.globals,
         ...p5Sound.globals,
+        p5: 'readonly',
         Pane: 'readonly',
         SVG: 'readonly',
         SvgFont: 'readonly',
         OpenSimplexNoise: 'readonly',
+        createPalette: 'readonly',
+        createPDF: 'readonly',
+        // Shared helpers loaded by index.html from src/libs/utils.js.
+        addPostItCaption: 'readonly',
+        getCurrentDateTimeString: 'readonly',
+        getFormattedDateString: 'readonly',
       },
     },
     rules: {
